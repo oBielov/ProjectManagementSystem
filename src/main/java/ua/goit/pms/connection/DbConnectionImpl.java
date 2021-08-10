@@ -22,7 +22,7 @@ public class DbConnectionImpl implements DbConnection, Closeable {
         config.setJdbcUrl(PropertiesReader.getProperty("url"));
         config.setDriverClassName(PropertiesReader.getProperty("driver"));
         config.setUsername("root");
-        config.setPassword("root");
+        config.setPassword("123qweASD");
         config.setMaximumPoolSize(10);
         config.setConnectionTimeout(10000);
         config.setIdleTimeout(10000);
